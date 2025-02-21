@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "TripEasy",
+    "slug": "tripeasy",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/play_store_512.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.phoenixFlex.TripEasy"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/play_store_512.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.pushkalvas.aitravelplanner"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "cbfad89f-8847-456e-9523-2e759bf58f7e"
+      }
+    }
+  }
+}
